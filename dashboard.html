@@ -513,6 +513,14 @@
     setInterval(fetchWeather,15*60*1000);
     setInterval(updateTimelines,1000);
     setInterval(refreshSchedule,10*60*1000);
+
+    // Auto-reload the whole page every 5 minutes
+window.addEventListener("load", () => {
+  const FIVE_MIN = 5 * 60 * 1000;
+  setInterval(() => {
+    window.location.reload();
+  }, FIVE_MIN);
+});
   </script>
 </body>
 </html>
