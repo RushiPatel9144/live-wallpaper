@@ -1,0 +1,10 @@
+{
+  "name": "rushi-dashboard",
+  "version": "1.0.0",
+  "description": "Live wallpaper dashboard with calendar proxy",
+  "main": "index.js",
+  "type": "module",
+  "dependencies": {
+    "node-fetch": "^3.3.2"
+  }
+}
